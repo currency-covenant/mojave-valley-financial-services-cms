@@ -12,7 +12,6 @@
     "global_fetch_strictly_public",
   ],
   "route": "cms.mojavevalleyfinancial.com/*",
-  "zone_id": "c408e01279b5cf8a47246e164b495743",
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS",
