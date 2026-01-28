@@ -11,6 +11,8 @@
     // see https://developers.cloudflare.com/workers/configuration/compatibility-flags/#global-fetch-strictly-public
     "global_fetch_strictly_public",
   ],
+  "route": "cms.mojavevalleyfinancial.com/*",
+  "zone_id": "c408e01279b5cf8a47246e164b495743",
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS",
@@ -33,7 +35,8 @@
   "r2_buckets": [
     {
       "binding": "R2",
-      "bucket_name": "mojave-valley-financial-r2","preview_bucket_name": "mojave-valley-financial-r2",
+      "bucket_name": "mojave-valley-financial-r2",
+      "preview_bucket_name": "mojave-valley-financial-r2",
     },
     // Create a R2 binding with the binding name "NEXT_INC_CACHE_R2_BUCKET"
     // {
